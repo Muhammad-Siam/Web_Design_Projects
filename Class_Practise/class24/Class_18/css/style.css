@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Common Css end */
+
+.main{
+    padding: 20px;
+    border: 5px solid green;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.one{
+    padding: 20px;
+    background: green;
+    order: 5;
+    flex-basis: 300px;
+    flex-shrink: 1;
+}
+
+.two{
+    padding: 20px;
+    background: rgba(40, 247, 13, 0.568);
+    order: 4;
+    flex-basis: 400px;
+    flex-shrink: 2;
+    
+}
+
+.three{
+    padding: 20px;
+    background:blue;
+    order: 3;
+    
+}
+
+.four{
+    padding: 20px;
+    background: red;
+    order: 2;
+    
+}
+
+.five{
+    padding: 20px;
+    background: yellow;
+    order: 1;
+    
+}

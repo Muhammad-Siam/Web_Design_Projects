@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+span {
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+/* =====Menu Part===== */
+#menu {
+    padding: 32px 0;
+    background: rgba(0, 0, 0, 0.44);
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.menu_cont {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo {
+    flex-basis: 170px;
+}
+
+.main_menu {
+    flex-basis: 854px;
+}
+
+.menu_social {
+    flex-basis: 146px;
+    text-align: right;
+    position: relative;
+}
+
+.menu_social::after {
+    position: absolute;
+    content: '';
+    left: 41px;
+    top: -5px;
+    width: 1px;
+    height: 30px;
+    background: #fff;
+}
+
+.menu_social a {
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 6px;
+    margin-left: 5px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.menu_social a:hover {
+    color: #28b8d8;
+}
+
+
+.main_menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main_menu ul li a {
+    margin-left: 44px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu ul li a:hover {
+    color: #28b8d8;
+}
+
+/* =====Menu Part===== */
+
+
+
+
+
+/* =====Banner Part===== */
+#banner{
+    padding: 330px 0 252px;
+    position: relative;
+}
+.banner_text{
+    text-align: center;
+}
+.banner_text h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.banner_text h3{
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.banner_text p{
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+}
+/* =====Banner Part===== */
+
+
+
+/* =====Service Part===== */
+#service{
+    padding: 80px 0;
+    text-align: center;
+}
+.service_head h2{
+    color: #444444;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.service_head p{
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.inner_head h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #444444;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 70px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+.inner_img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.service_col{
+    flex-basis: 30%;
+    margin-right: 30px;
+    flex-grow: 1;
+    padding: 15px;
+    border: 1px solid #e3e3e3;
+}
+.service_col h4{
+    padding-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    font-size: 17px;
+    font-weight: 700;
+}    
+.service_col p{
+    padding-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    color:#666666;
+}
+.service_col img{
+    width: 100%;
+    max-width: 100%;
+}
+.service_col:last-child{
+    margin-right: 0;
+}
+/* =====Service Part===== */
+
+/* =====Insta Part===== */
+#insta{
+    padding: 80px 0;
+    background: #2c2c2c;
+    text-align: center;
+}
+.insta_head h2{
+    color: #d5d5d5;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+.insta_head h2::after{
+    position: absolute;
+    content: '';
+    left: -115px;
+    top: 8px;
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+.insta_head h2::before {
+    position: absolute;
+    content: '';
+    left: -115px;
+    bottom: 7px;
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+.insta_head{
+    position: relative;
+    display: inline-block;
+}
+.insta_head::after{
+    position: absolute;
+    content: '';
+    right: -115px;
+    top: 8px;
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+.insta_head::before{
+    position: absolute;
+    content: '';
+    right: -115px;
+    bottom: 7px;
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+.insta_img{
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.insta_img .img img{
+    width: 100%;
+    max-width: 100%;
+}
+.insta_img .img {
+    flex-basis: 23.1%;
+    margin-right: 15px;
+}
+.insta_img .img:first-child{
+    margin-left: 15px;
+}
+#insta a{
+    padding: 0 20px;
+    border: 1px solid #797979;
+    line-height: 48px;
+    color: #fff;
+    margin-top: 50px;   
+}
+
+
+/* =====Insta Part===== */
+
+
+
+/* =====Journal Part===== */
+#journal{
+    padding: 80px 0;
+    text-align: center;
+}    
+.journal_head{
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+.journal_head::after{
+    position: absolute;
+    content: '';
+    right: -115px;
+    top: 8px;
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+}
+.journal_head::before{
+    position: absolute;
+    content: '';
+    right: -115px;
+    bottom: 7px;
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+}
+.journal_head h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #444444;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+.journal_head h2::after{
+    position: absolute;
+    content: '';
+    left: -115px;
+    top: 8px;
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+}
+.journal_head h2::before {
+    position: absolute;
+    content: '';
+    left: -115px;
+    bottom: 7px;
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+}
+.journal_img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.journal_col{
+    flex-basis: 30%;
+    margin-right: 30px;
+    flex-grow: 1;
+    padding: 25px 0;
+    border: 1px solid #e3e3e3;
+}
+.journal_col img{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.journal_col:last-child{
+    margin-right: 0;
+}
+.journal_col h3{
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    font-size: 16px;        
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+.journal_col p{
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding: 0 25px;
+    text-align: justify;
+}
+.journal_col .p1{
+    margin-left: 65px;
+}
+.journal_col .p2{
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.journal_col .p3{
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-left: 24px;
+}
+.journal_col ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+.journal_col ul li {
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    font-size: 11px;
+    font-weight: 400;
+    margin-left: 190px;
+}
+/* =====Journal Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */
+/* =====Menu Part===== */

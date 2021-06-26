@@ -1,0 +1,303 @@
+/* Common Css Start */
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+span {
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Common Css End */
+
+
+
+
+
+
+
+/* Header Css Start */
+#header_part {
+    padding: 13px 0 17px;
+}
+
+.header_cont {
+    display: flex;
+}
+
+.header_logo {
+    width: 83px;
+}
+
+.header_text {
+    width: 635px;
+}
+
+.header_phone {
+    width: 252px;
+}
+
+.header_text h2 {
+    color: #3ca2a2;
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 13px;
+    line-height: 88px;
+    text-align: right;
+}
+
+.header_phone h2 {
+    color: #b76262;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: right;
+    line-height: 88px;
+}
+
+/* Header Css End */
+
+
+
+
+
+
+/*MenuPart  Css Start */
+#menu_part {
+    background: linear-gradient(to top, #ae1010 0%, #cf0511 100%);
+}
+
+.menu_cont {
+    display: flex;
+}
+
+.main_menu {
+    width: 870px;
+}
+
+.menu_icon {
+    width: 100px;
+}
+
+.main_menu ul {
+    display: flex;
+}
+
+.main_menu ul li a {
+    padding: 17px 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu ul li a:hover {
+    background: #f18d26;
+}
+
+.menu_icon a {
+    color: #bf0a11;
+    background: #fff;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 13px;
+    font-size: 14px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.menu_icon a:hover {
+    background: #f18d26;
+    color: #fff;
+}
+
+/*MenuPart  Css End */
+
+
+
+/* BannerPart Css Start */
+#banner_part {
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 75px 0;
+}
+
+.banner_cont {
+    display: flex;
+    position: relative;
+}
+
+.banner_text {
+    width: 495px;
+}
+
+.banner_text h2 {
+    color: #215a6d;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.banner_text h1 {
+    color: #215a6d;
+    font-size: 48px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.banner_text p {
+    color: #215a6d;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 190px;
+}
+
+.banner_text a{
+    background: #92c7a3;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+    padding: 0 25px;
+    line-height: 42px;
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.banner_text a:hover{
+    background: #f18d26;
+}
+.banner_img {
+    width: 535px;
+    position: absolute;
+    right: 0;
+    bottom: -75px;
+}
+
+.banner_img img {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* BannerPart Css End */
+
+
+
+
+
+/* Service Part Start */
+#service_part{
+    padding: 75px 0;
+}
+.service_row{
+    display: flex;
+}
+.service_col{
+    width: 30%;
+    margin-right: 60px;
+    text-align: center;
+}
+.service_col h3{
+    color: #3ca2a2;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.serv_col:last-child{
+    margin-right: 0;
+}
+
+/* Service Part End */
+
+
+
+/* Common Css Start */
+/* Common Css End */
+/* Common Css Start */
+/* Common Css End */
+
+/* Common Css Start */
+/* Common Css End */
+/* Common Css Start */
+/* Common Css End */
+/* Common Css Start */
+/* Common Css End */
+/* Common Css Start */
+/* Common Css End */
+/* Common Css Start */
+/* Common Css End */
+/* Common Css Start */
+/* Common Css End */
+/* Common Css Start */
+/* Common Css End */
+/* Common Css Start */
+/* Common Css End */
+/* Common Css Start */
+/* Common Css End */
+/* Common Css Start */
+/* Common Css End */
+/* Common Css Start */
+/* Common Css End */
+
+/* Common Css Start */
+/* Common Css End */
+/* Common Css Start */
+/* Common Css End */
+/* Common Css Start */
+/* Common Css End */
+/* Common Css Start */
+/* Common Css End */
+/* Common Css Start */
+/* Common Css End */
+
+/* Common Css Start */
+/* Common Css End */
